@@ -1,0 +1,29 @@
+svg{
+    margin-left:-4px;
+    
+
+}
+
+#dark{
+    background-color:#5f264a;
+    color:#f4eee0;
+}
+
+
+@media (max-width:800px){
+    .footer{
+      margin:0;
+      padding:0;
+      margin-top:20px;
+      margin-bottom:20px;
+    }
+    .footer-content{
+      margin-left:200px;
+    }
+  }
+
+  @media (max-width:600px){
+    .footer-content{
+      margin-left:0px;
+    }
+  }

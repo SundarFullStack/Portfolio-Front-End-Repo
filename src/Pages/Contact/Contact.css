@@ -1,0 +1,173 @@
+.Scontact{
+    margin-left:140px;
+    margin-bottom:60px;
+    padding-top:50px;
+}
+.Bcontact{
+    margin-left:140px;
+    margin-bottom:60px;
+    padding-top:50px;
+}
+
+.card0{
+    box-shadow:0px 4px 8px 0px #757575;
+    border-radius:0px;
+}
+.card2{
+    margin:0px 0px 0px -15px;
+}
+.card1 img{
+    padding:30px;
+    margin-top:30px;
+    height:100%;
+    width:100%;
+}
+
+
+
+.border-line{
+    border-right:1px solid #e0e0e0;
+}
+::placeholder{
+    color:rgb(62 177 197);
+    opacity:1;
+    font-weight:300;
+}
+
+input,textarea{
+    padding:10px 12px;
+    border:1px solid  rgb(62 177 197);
+    border-radius:2px;
+    margin-top:5px;
+    font-size: 17px;
+    width:100%;
+    color:rgb(62 177 197);
+    letter-spacing:1px;
+
+
+}
+
+input:focus, textarea:focus{
+    box-shadow:none !important;
+    outline:1px solid rgb(62 177 197) !important;
+    outline-width:0px;
+
+}
+/* button:focus{
+    box-shadow:none;
+    outline-width:0px;
+} */
+button{
+    background-color:rgb(62 177 197);
+    color:white;
+    margin-top:15px;
+    padding:10px;
+    border-color: rgb(62 177 197);
+    font-size: 17px;
+}
+
+button:hover{
+    background-color:transparent;
+    color:rgb(62 177 197);
+    
+}
+.Scontact h5{
+    color:rgb(62 177 197);
+    /* color:gray; */
+    font-family:cursive;
+    /* border-bottom:2px solid gray; */
+    text-align:center;
+    font-weight:bold;
+    margin-top: 24px;
+
+
+}
+.Scontact h3{
+    margin-top: 11px;
+    text-align: center;
+    font-weight:bold;
+    font-family:cursive;
+    }
+.Bcontact h5{
+    color:rgb(62 177 197);
+    /* color:gray; */
+    font-family:cursive;
+    /* border-bottom:2px solid gray; */
+    text-align:center;
+    font-weight:bold;
+    margin-top: 24px;
+
+
+}
+.Bcontact h3{
+    margin-top: 11px;
+    text-align: center;
+    font-weight:bold;
+    font-family:cursive;
+    }
+
+    .contact-linkedin-icon{
+        cursor:pointer;
+        font-size:40px;
+        margin-right:60px;
+        color:blue
+    }
+    .contact-github-icon{
+        cursor:pointer;
+        font-size:40px;
+        margin-right:60px;
+        color:black
+    }
+
+    .contact-linkedin-icon:hover{
+        background: blue;
+        color:white;
+    }
+    .contact-github-icon:hover{
+        background: black;
+        color:white;
+    }
+
+@media (max-width:800px){
+    .Scontact{
+        margin-left:200px;
+        padding:0;
+        margin-top:50px;
+
+    }
+    .Bcontact{
+        margin-left:60px;
+        padding:0;
+        margin-top:50px;
+
+    }
+    .contact .card2{
+        margin:0;
+
+    }
+    .contact .card2 h6{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+    }
+  input,textarea,button{
+    margin-left:23px;
+
+  }
+}
+
+@media (max-width:600px){
+    .Scontact{
+        margin-left:0px;
+        padding:0;
+        margin-top:50px;
+
+    }
+    .Bcontact{
+        margin-left:0px;
+        padding:0;
+        margin-top:50px;
+
+    }
+}

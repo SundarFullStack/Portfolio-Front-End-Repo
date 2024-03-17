@@ -1,0 +1,165 @@
+.Tabout{
+    margin:30px 0px;
+    margin-left:140px;
+    padding:20px;
+    box-shadow: 0px 4px 8px 0px #757575;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.NTabout{
+    margin:30px 0px;
+    margin-left:140px;
+    padding:20px;
+    box-shadow: 0px 4px 8px 0px #757575;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.about-img img{
+    border-radius:10px;
+    width:100%;
+    height:400px;
+    margin-left:20px;
+}
+.about-content{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:37px;
+  
+
+}
+.about h5{
+    color:rgb(62 177 197);
+    /* color:gray; */
+    font-family:cursive;
+    /* border-bottom:2px solid gray; */
+    text-align:center;
+    font-weight:bold;
+
+
+}
+
+.about h3{
+    margin-top: 11px;
+    text-align: center;
+    font-weight:bold;
+    font-family:cursive;
+    }
+
+
+    .about-header{
+        font-weight:700;
+        font-size:"30px";
+        font-family:cursive;
+
+    }
+
+    .about-details{
+        margin-right: 39px;
+    margin-left: -153px;
+    font-weight: bold;
+    color:black;
+    }
+/* Dark mode */
+
+#dark .about{
+    box-shadow:none;
+    background-color:rgba(0,0,0,0.15)
+}
+
+#dark .about-content h1{
+    color:#b0a4a4;
+    border-bottom:2px solid #b0a4a4
+}
+.project-sub-header{
+    margin: 18px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+table{
+    margin: 0px 10px 0px 370px;
+    width: 100%;
+    font-size:17px;
+   
+}
+.table-responsive{
+    overflow:hidden;
+    margin-right: 40%;
+    justify-content: center;
+    display: flex;
+}
+
+.table-head{
+    font-weight:600;
+    color:gray;
+}
+.colon{
+    font-size: larger;
+    margin: 25px;
+}
+.Tabout h5{
+    color:rgb(62 177 197);
+    /* color:gray; */
+    font-family:cursive;
+    /* border-bottom:2px solid gray; */
+    text-align:center;
+    font-weight:bold;
+    margin-top: 24px;
+
+
+}
+.NTabout h5{
+    color:rgb(62 177 197);
+    /* color:gray; */
+    font-family:cursive;
+    /* border-bottom:2px solid gray; */
+    text-align:center;
+    font-weight:bold;
+    margin-top: 24px;
+
+
+}
+
+#aboutMe-Header{
+    font-family: cursive;
+}
+
+@media (max-width:800px){
+    .NTabout{
+        margin-left:60px;
+    }
+    .Tabout{
+        margin-left:210px;
+    }
+}
+
+@media (max-width:600px){
+ 
+    table{
+        font-size:14px;
+    }
+    .NTabout{
+        margin-left:0px;
+    }
+    .Tabout{
+        margin-left:0px;
+    }
+   .about-img img{
+    margin-left:-3px;
+   }
+.about-content{
+    margin-top:10px;
+}
+#aboutMe-Header{
+    font-weight: 600;
+    font-size: 13px;
+    font-family: cursive;
+}
+   
+
+}

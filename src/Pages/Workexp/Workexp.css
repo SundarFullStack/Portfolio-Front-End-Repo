@@ -1,0 +1,82 @@
+.Swork{
+    background-color:#1387812a;
+    margin:30px 0px;
+    margin-left:140px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.Bwork{
+    background-color:#1387812a;
+    margin:30px 0px;
+    margin-left:140px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+/* .work-exp{
+    padding:30px 0px;
+} */
+.work-exp hr{
+    width:200px;
+    margin: 10px auto;
+    color:rgb(62 177 197);
+}
+
+.work-exp h4{
+    font-weight:bold;
+    color:rgb(62 177 197);
+    font-family:cursive;
+}
+.work-exp.vertical-timeline-element-title{
+    color:rgb(62 177 197);
+
+
+}
+
+.work-exp .vertical-timeline-element-subtitle{
+    color:#30304460;
+    
+   
+
+}
+
+@media (max-width:800px){
+    .Swork{
+        background-color:#1387812a;
+        margin:30px 0px;
+        margin-left:200px;
+        padding:20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .Bwork{
+        background-color:#1387812a;
+        margin:30px 0px;
+        margin-left:60px;
+        padding:20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+  
+    .work hr{
+        width:280px;
+    }
+    .work-exp h2{
+        padding:20px;
+    }
+}
+
+@media (max-width:600px){
+    .Swork{
+        background-color:#1387812a;
+        margin:30px 0px;
+        margin-left:0px;
+        padding:20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .Bwork{
+        background-color:#1387812a;
+        margin:30px 0px;
+        margin-left:0px;
+        padding:20px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+}
