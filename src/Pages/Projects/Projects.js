@@ -3,7 +3,7 @@ import "./Projects.css";
 import ProdImage from "../../Components/Images/ProdApp_Image.png"
 import FMSImage from "../../Components/Images/FMS_Image.png"
 import NotesImage from "../../Components/Images/Notes_Image.png"
-import ChatImage from "../../Components/Images/Chat_Image.png"
+import BlackCartImg from "../../Components/Images/BlackCartImg.png"
 import {MyContext} from "../../Components/Context/ContextProvider"
 const Projects = () => {
 
@@ -28,7 +28,7 @@ const Projects = () => {
                   <span className="card-notify-badge">Full Stack</span>
                   <img
                   src={ProdImage}
-                    alt="project1"
+                    alt="Product Project Img"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
@@ -54,7 +54,7 @@ const Projects = () => {
                   <span className="card-notify-badge">Full Stack</span>
                   <img
                   src={NotesImage}
-                    alt="project1"
+                    alt="Notes Project Image"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
@@ -80,7 +80,7 @@ const Projects = () => {
                   <span className="card-notify-badge">Full Stack</span>
                   <img
                   src={FMSImage}
-                    alt="project1"
+                    alt="FMS project Image"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
@@ -105,8 +105,8 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full Stack</span>
                   <img
-                  src={ChatImage}
-                    alt="project1"
+                  src={BlackCartImg}
+                    alt="BlackCart Project Image"
                   />
                 </div>
                 <div className="card-image-overly m-auto mt-3">
@@ -117,9 +117,9 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 >Chat Application</h5>
+                    <h5 >BlackCart (E-Comm) App</h5>
                   </div>
-                  <a href="https://farmersupermarket-8abbc.web.app" target="_blank" className="ad-btn">
+                  <a href="https://blackcart-3dbe9.web.app" target="_blank" className="ad-btn">
                     View
                   </a>
                 </div>

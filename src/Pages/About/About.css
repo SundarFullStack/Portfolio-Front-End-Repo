@@ -22,16 +22,8 @@
     height:400px;
     margin-left:20px;
 }
-.about-content{
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    padding:37px;
-  
 
-}
 .about h5{
     color:rgb(62 177 197);
     /* color:gray; */
@@ -82,17 +74,11 @@
 }
 
 table{
-    margin: 0px 10px 0px 370px;
     width: 100%;
     font-size:17px;
    
 }
-.table-responsive{
-    overflow:hidden;
-    margin-right: 40%;
-    justify-content: center;
-    display: flex;
-}
+
 
 .table-head{
     font-weight:600;
@@ -162,4 +148,10 @@ table{
 }
    
 
+}
+
+@media (max-width:400px){
+    table{
+        font-size:10px;
+    }
 }

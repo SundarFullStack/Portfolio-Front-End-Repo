@@ -93,14 +93,16 @@
     .home-content h1{
         font-size:24px;
     }
+    .home-buttons{
+        margin-left:200px;
+    }
     .home-buttons .btn-hire{
-        margin-left:-18px;
+        margin:40px;
     }
     .home-buttons .btn-cv{
-        margin-top: 8px;
     background-color: #f29f67;
     color: white;
-    margin-left: -17px;
+    margin: 20px;
     }
   
 }
@@ -111,6 +113,22 @@
     padding: 10px;
     margin: 0px;
     margin-top: 0px;
+    }
+    .home-buttons .btn-cv{
+     margin:10px;
+    }
+    .home-buttons .btn-hire{
+        margin:10px;
+    }
+    .home-content p{
+        font-size:40px;
+    }
+
+}
+
+@media (max-width:400px){
+    .home-buttons{
+        margin-left:100px;
     }
 }
 
