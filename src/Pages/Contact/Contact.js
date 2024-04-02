@@ -24,7 +24,7 @@ const Contact = () => {
       } else {
         //THis is my url for hosted server in render : https://portfolio-backend-ysm4.onrender.com
         const res = await axios.post(
-          "http://localhost:8010/api/SendEmail",
+          "https://portfolio-back-end-repo.onrender.com/api/SendEmail",
           {
             fname,
             email,
