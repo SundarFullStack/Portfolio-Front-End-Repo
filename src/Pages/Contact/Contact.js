@@ -24,21 +24,21 @@ const Contact = () => {
       } else {
         //THis is my url for hosted server in render : https://portfolio-backend-ysm4.onrender.com
         const res = await axios.post(
-          "https://portfolio-backend-ysm4.onrender.com/api/SendEmail",
+          "http://localhost:8010/api/SendEmail",
           {
             fname,
             email,
             message,
           }
         );
-        // console.log('res',res.data);
-        if (res.data.success) {
+        // console.log('res',res.data.status);
+        if (res.status == 200) {
           toast.success(res.data.message);
           // console.log(res.data.message);
           setName("");
           setEmail("");
           setMessage("");
-        } else {
+        } else if(res.status==201) {
           toast.error(res.data.message);
         }
       }
@@ -120,7 +120,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="row px-3">
-                    <button onClick={handleSubmit} className="">
+                    <button onClick={handleSubmit}>
                       Send Message
                     </button>
                   </div>
