@@ -15,10 +15,10 @@ const Techstack = () => {
             Technologies Stack
           </h4>
           <hr />
-          <p className="pb-3 text-center">
+          <h6 className="pb-3 text-center">
             👉 including programming languages, frameworks,databases, front-end,
             back-tools, APIs
-          </p>
+          </h6>
         
               <div className="row">
               

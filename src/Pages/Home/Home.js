@@ -12,7 +12,7 @@ const Home = () => {
 
         <div className="container home-content">
           
-          <h4>Hello, My Name is</h4>
+          <h4>Hi, My Name is</h4>
           <p><span style={{color:"rgb(62 177 197)"}}>Meenakshi</span> Sundar</p>
           <h2 style={{color:"rgb(62 177 197)"}}><span style={{color:"white"}}>I'm a</span><Typewriter options={{strings:["Mern Stack Developer","Full Stack Developer"],
           autoStart:true,
@@ -34,9 +34,7 @@ const Home = () => {
               </a>
               <a
                 className="btn btn-cv"
-                // href="https://sundarfullstack.github.io/Sample_Portfolio_app/Resume.pdf"
                 href="https://SundarFullStack.github.io/Resume_Repo/Resume.pdf"
-                download="Sundar_Resume.pdf"
                 target="_blank"
               >
                 My Resume
